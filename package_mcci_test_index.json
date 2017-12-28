@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "MCCI Catena SAMD Boards-Test",
+          "name": "MCCI Catena SAMD Boards Test",
           "architecture": "samd",
           "version": "1.0.0",
           "category": "Contributed",
