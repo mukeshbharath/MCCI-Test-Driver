@@ -19,8 +19,8 @@
           },
           "url": "https://github.com/mukeshbharath/MCCI-Test-Driver/raw/master/MCCI_Test_Core_SAMD-1.0.0.zip",
           "archiveFileName": "MCCI_Test_Core_SAMD-1.0.0.zip",
-          "checksum": "SHA-256:653f440a15141aae5a1e011529daed6d74e5c3886d563b05d7e09edeb1efa16f",
-          "size": "18324797",
+          "checksum": "SHA-256:8b2136d45b7fe1dbf17fc3082e7b5584907c42de4498a4da1a7eb85f6ce2b2f7",
+          "size": "(18102332",
           "boards": [
             {"name": "Catena4410"},
             {"name": "Catena4450"}
