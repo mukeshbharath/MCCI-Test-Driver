@@ -3,14 +3,14 @@
     {
       "name": "mcci",
       "maintainer": "MCCI Corp",
-      "websiteURL": "https://github.com/mcci-catena/arduino-boards",
-      "email": "tmm@mcci.com",
+      "websiteURL": "https://github.com/mukeshbharath/MCCI-Test-Driver",
+      "email": "mukeshbharath@mcci.com",
       "help": {
         "online": "https://portal.mcci.com"
       },
       "platforms": [
         {
-          "name": "MCCI Catena SAMD Boards",
+          "name": "MCCI Catena SAMD Boards-Test",
           "architecture": "samd",
           "version": "1.0.0",
           "category": "Contributed",
