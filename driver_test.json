@@ -1,0 +1,255 @@
+{
+  "packages": [
+    {
+      "name": "arduino",
+      "maintainer": "Arduino",
+      "websiteURL": "http://www.arduino.cc/",
+      "email": "packages@arduino.cc",
+      "help": {
+        "online": "http://www.arduino.cc/en/Reference/HomePage"
+      },
+      "platforms": [
+        {
+          "name": "Arduino nRF52 Boards",
+          "architecture": "nrf52",
+          "version": "1.0.2",
+          "category": "Arduino",
+          "help": {
+            "online": "http://www.arduino.cc/en/Reference/HomePage"
+          },
+          "url": "http://downloads.arduino.cc/arduino.org/package_arduino_nrf52_1.0.2.tar.bz2",
+          "archiveFileName": "package_arduino_nrf52_1.0.2.tar.bz2",
+          "checksum": "SHA-256:3a96c9476e567b7bca6f0201fcd6a4dbc97bddfbce70bc2d96f5f33a59265163",
+          "size": "2308695",
+          "boards": [
+            {"name": "Arduino Primo"},
+            {"name": "Arduino Primo Core"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino1-static"
+            },
+            {
+              "packager": "arduino",
+              "name": "nrf5x-cl-tools",
+              "version": "9.3.1"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "arm-none-eabi-gcc",
+          "version": "4.8.3-2014q1",
+          "systems": [
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-arm.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-arm.tar.bz2",
+              "checksum": "SHA-256:ebe96b34c4f434667cab0187b881ed585e7c7eb990fe6b69be3c81ec7e11e845",
+              "size": "44423906"
+            },
+            {
+              "host": "i686-mingw32",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+              "checksum": "SHA-256:fd8c111c861144f932728e00abd3f7d1107e186eb9cd6083a54c7236ea78b7c2",
+              "size": "84537449"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+              "checksum": "SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
+              "size": "52518522"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
+              "size": "51395093"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
+              "size": "51029223"
+            }
+          ]
+        },
+        {
+          "name": "CMSIS",
+          "version": "4.5.0",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/CMSIS-4.5.0.tar.bz2",
+              "archiveFileName": "CMSIS-4.5.0.tar.bz2",
+              "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+              "size": "31525196"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://downloads.arduino.cc/CMSIS-4.5.0.tar.bz2",
+              "archiveFileName": "CMSIS-4.5.0.tar.bz2",
+              "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+              "size": "31525196"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/CMSIS-4.5.0.tar.bz2",
+              "archiveFileName": "CMSIS-4.5.0.tar.bz2",
+              "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+              "size": "31525196"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/CMSIS-4.5.0.tar.bz2",
+              "archiveFileName": "CMSIS-4.5.0.tar.bz2",
+              "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+              "size": "31525196"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://downloads.arduino.cc/CMSIS-4.5.0.tar.bz2",
+              "archiveFileName": "CMSIS-4.5.0.tar.bz2",
+              "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+              "size": "31525196"
+            },
+            {
+              "host": "all",
+              "url": "http://downloads.arduino.cc/CMSIS-4.5.0.tar.bz2",
+              "archiveFileName": "CMSIS-4.5.0.tar.bz2",
+              "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+              "size": "31525196"
+            }
+          ]
+        },
+        {
+          "version": "1.0.0",
+          "name": "wiced_dfu",
+          "systems": [
+            {
+              "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-linux32.tar.gz",
+              "checksum": "MD5:355f25629740182d0ead5bc0b8aad42f",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "wiced_dfu-1.0.0-linux32.tar.gz",
+              "size": "28295"
+            },
+            {
+              "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-linux64.tar.gz",
+              "checksum": "MD5:ae36e3e3a35ac507955a3ee4f18e4bb7",
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "wiced_dfu-1.0.0-linux64.tar.gz",
+              "size": "28667"
+            },
+            {
+              "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-mac.tar.gz",
+              "checksum": "MD5:df388f13c1c76cb4b88a195e5b179b70",
+              "host": "i386-apple-darwin11",
+              "archiveFileName": "wiced_dfu-1.0.0-mac.tar.gz",
+              "size": "3742"
+            },
+            {
+              "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-win32.tar.gz",
+              "checksum": "MD5:7cbb7ab21c6a524285be5326e3a1009e",
+              "host": "i686-mingw32",
+              "archiveFileName": "wiced_dfu-1.0.0-win32.tar.gz",
+              "size": "525710"
+            }
+          ]
+        },
+        {
+          "name": "openocd",
+          "version": "0.10.0-arduino1-static",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "url": "http://downloads.arduino.cc/arduino.org/OpenOCD-0.10.0-nrf52-osx-static.tar.gz",
+              "archiveFileName": "OpenOCD-0.10.0-nrf52-osx-static.tar.gz",
+              "size": "1529841",
+              "checksum": "SHA-256:46bd02c1d42c5d94c4936e4d4a0ff29697b621840be9a6f882e316203122049d"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://downloads.arduino.cc/arduino.org/OpenOCD-0.10.0-nrf52-linux64-static.tar.gz",
+              "archiveFileName": "OpenOCD-0.10.0-nrf52-linux64-static.tar.gz",
+              "size": "1777984",
+              "checksum": "SHA-256:1c9ae77930dd7377d8c13f84abe7307b67fdcd6da74cc1ce269a79e138e7a00a"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "url": "http://downloads.arduino.cc/arduino.org/OpenOCD-0.10.0-nrf52-linux32-static.tar.gz",
+              "archiveFileName": "OpenOCD-0.10.0-nrf52-linux32-static.tar.gz",
+              "size": "1713236",
+              "checksum": "SHA-256:777371df34828810e1bea623b0f7c98f28fedf30fd3bc8e7d8f0a5745fb4e258"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/arduino.org/OpenOCD-0.10.0-nrf52-win32-static.zip",
+              "archiveFileName": "OpenOCD-0.10.0-nrf52-win32-static.zip",
+              "size": "1773642",
+              "checksum": "SHA-256:9371b25d000bd589c058a5bf10720617adb91fd8b8a21d2e887cf45eaa2df93c"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://downloads.arduino.cc/arduino.org/OpenOCD-0.10.0-nrf52-arm-static.tar.gz",
+              "archiveFileName": "OpenOCD-0.10.0-nrf52-arm-static.tar.gz",
+              "size": "1526863",
+              "checksum": "SHA-256:b5172422077f87ff05b76ff40034979678c9c640e9d08cee15ce55e40dd8c929"
+            }
+          ]
+        },
+        {
+          "name": "nrf5x-cl-tools",
+          "version": "9.3.1",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "url": "http://downloads.arduino.cc/arduino.org/nRF5x-Command-Line-Tools_9_3_1_OSX.tar.bz2",
+              "archiveFileName": "nRF5x-Command-Line-Tools_9_3_1_OSX.tar.bz2",
+              "size": "341674",
+              "checksum": "SHA-256:41e4580271b39459a7ef1b078d11ee08d8f4f23fab7ff03f3fe8c3bc986a0ed4"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://downloads.arduino.cc/arduino.org/nRF5x-Command-Line-Tools_9_3_1_Linux-x86_64.tar.bz2",
+              "archiveFileName": "nRF5x-Command-Line-Tools_9_3_1_Linux-x86_64.tar.bz2",
+              "size": "167414",
+              "checksum": "SHA-256:4074fffe678d60968006a72edd182c6506b264472c9957bc3eaa39336bfcf972"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "url": "http://downloads.arduino.cc/arduino.org/nRF5x-Command-Line-Tools_9_3_1_Linux-i386.tar.bz2",
+              "archiveFileName": "nRF5x-Command-Line-Tools_9_3_1_Linux-i386.tar.bz2",
+              "size": "155680",
+              "checksum": "SHA-256:e880059b303e5aad3a8b34c83dfd8c22beee77ae2074fbd37511e3baa91464a5"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/arduino.org/nRF5x-Command-Line-Tools_9_3_1_Win32.tar.bz2",
+              "archiveFileName": "nRF5x-Command-Line-Tools_9_3_1_Win32.tar.bz2",
+              "size": "812257",
+              "checksum": "SHA-256:a4467350e39314690cec2e96b80e7e3cab463c84eff9b81593ad57754d76ee00"
+            }
+          ]
+        }   
+      ]
+    }
+  ]
+}
